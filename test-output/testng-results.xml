@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-04T09:33:09Z" name="Default suite" finished-at="2023-08-04T09:33:18Z" duration-ms="9858">
+    <groups>
+    </groups>
+    <test started-at="2023-08-04T09:33:09Z" name="Default test" finished-at="2023-08-04T09:33:18Z" duration-ms="9858">
+      <class name="WCart.WhatACart.TestWcart">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:WCart.WhatACart.TestWcart@1e44b638]" started-at="2023-08-04T09:33:09Z" name="invokeBrowser" finished-at="2023-08-04T09:33:12Z" duration-ms="2889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="loginToWcart(java.lang.String, java.lang.String)[pri:-1, instance:WCart.WhatACart.TestWcart@1e44b638]" started-at="2023-08-04T09:33:12Z" name="loginToWcart" data-provider="CredentialsSupplier" finished-at="2023-08-04T09:33:18Z" duration-ms="6308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[spaulkar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Research$520]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToWcart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:WCart.WhatACart.TestWcart@1e44b638]" started-at="2023-08-04T09:33:18Z" name="close" finished-at="2023-08-04T09:33:18Z" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- WCart.WhatACart.TestWcart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
